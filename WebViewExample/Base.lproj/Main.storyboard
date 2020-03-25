@@ -66,6 +66,7 @@
                         <barButtonItem key="rightBarButtonItem" title="History" id="Slo-Bg-yjW">
                             <connections>
                                 <action selector="showHistory:" destination="BYZ-38-t0r" id="2J9-Oo-8a0"/>
+                                <segue destination="h78-6f-byQ" kind="show" id="5eM-1b-5zH"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -76,6 +77,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="852.17391304347836" y="137.94642857142856"/>
+        </scene>
+        <!--History-->
+        <scene sceneID="SdA-as-7V4">
+            <objects>
+                <viewController id="h78-6f-byQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lkz-JY-Guu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tLs-YP-lsA"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="History" id="Tlt-cl-HwF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOg-fG-hEt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664" y="144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="h9y-km-K1q">
